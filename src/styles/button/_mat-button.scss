@@ -1,0 +1,8 @@
+@import "@material/button/mdc-button";
+
+$color: teal;
+
+.btn {
+  @include mdc-button-ink-color($color);
+  @include mdc-states($color);
+}
